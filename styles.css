@@ -1,0 +1,204 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} 
+
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover{
+    border-bottom: #333 solid ;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c70039;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar .btn {
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1a/ea/54/hotel-presidente-4s.jpg?w=1100&h=-1&s=1') no-repeat  center/cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .container {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Rooms Section */
+.rooms {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.rooms h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.room-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.room {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.room img {
+    max-width: 350px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Amenities Section */
+.amenities {
+    padding: 50px 0;
+}
+
+.amenities h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.amenities p {
+    color: aliceblue;
+}
+.amenities-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.amenity {
+    flex: 1;
+    background: url("https://www.fluidra.com/projects//web/app/uploads/2022/04/iStock-119926339-2-1568x1049.jpg")no-repeat center center/cover;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+
+/* Dining Section */
+.dining {
+    padding: 200px 0;
+    background:url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2021-03/Hotel%20restaurant.jpg") no-repeat center/cover;
+    text-align: center;
+}
+
+.dining p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    font-size: 14px;
+}
